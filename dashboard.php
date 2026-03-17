@@ -24,7 +24,7 @@ $consultatii = $conn->query("SELECT COUNT(*) as total FROM consultatii")->fetch_
 <body>
 
 <header>
-<h1>Sistem Management Spital</h1>
+<h1>Stitalul Santa Maria del Travis</h1>
 </header>
 
 <nav>
