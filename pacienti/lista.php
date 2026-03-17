@@ -37,9 +37,11 @@ $result = $stmt->get_result();
 <h1>Lista Pacienti</h1>
 </header>
 
-<nav>
+<nav class="navbar">
 
 <a href="../dashboard.php">Dashboard</a>
+<a href="../programari/istoric.php">Programări</a>
+<a href="../consultatii/istoric.php">Consultații</a>
 <a href="adauga.php">Adauga pacient</a>
 
 </nav>

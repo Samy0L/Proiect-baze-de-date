@@ -22,10 +22,14 @@ $result = $conn->query($sql);
 </head>
 <body>
 <header><h1>Istoric Programari</h1></header>
-<nav>
+<nav class="navbar">
     <a href="../dashboard.php">Dashboard</a>
+    <a href="../pacienti/lista.php">Pacienți</a>
+    <a href="../consultatii/istoric.php">Consultații</a>
     <a href="adauga.php">Adauga programare</a>
 </nav>
+
+
 <div class="container">
     <table>
         <tr><th>ID</th><th>Pacient</th><th>Doctor</th><th>Data</th></tr>

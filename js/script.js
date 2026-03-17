@@ -1,22 +1,26 @@
-const form = document.getElementById("patientForm");
+document.addEventListener("DOMContentLoaded", function () {
 
-if(form){
+    console.log("Sistem spital pornit");
 
-form.addEventListener("submit", function(e){
+    const form = document.getElementById("patientForm");
 
-let cnp = document.querySelector("input[name='cnp']").value;
+    if(form){
+        form.addEventListener("submit", function(e){
 
-if(cnp.length !== 13){
-alert("CNP invalid");
-e.preventDefault();
-}
+            let cnp = document.querySelector("input[name='cnp']").value;
+            let telefon = document.querySelector("input[name='telefon']").value;
 
-});
+            if(cnp.length !== 13 || isNaN(cnp)){
+                alert("CNP invalid (trebuie 13 cifre)");
+                e.preventDefault();
+            }
 
-}
+            if(telefon && telefon.length < 10){
+                alert("Telefon invalid");
+                e.preventDefault();
+            }
 
-document.addEventListener("DOMContentLoaded",function(){
-
-console.log("Aplicatia spital a pornit");
+        });
+    }
 
 });

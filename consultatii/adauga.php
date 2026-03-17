@@ -34,8 +34,8 @@ if(isset($_POST['submit'])){
 </head>
 <body>
 <header><h1>Adauga Consultatie</h1></header>
-<nav>
-    <a href="../dashboard.php">Dashboard</a>
+<nav class="navbar">
+    <a href="../../dashboard.php">Dashboard</a>
     <a href="istoric.php">Istoric consultatii</a>
 </nav>
 <div class="container">

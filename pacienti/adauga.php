@@ -47,7 +47,7 @@ if(isset($_POST['submit'])){
 <h1>Adauga Pacient</h1>
 </header>
 
-<nav>
+<nav class="navbar">
     <a href="../dashboard.php">Dashboard</a> |
     <a href="lista.php">Lista pacienti</a>
 </nav>

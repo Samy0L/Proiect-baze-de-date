@@ -23,8 +23,10 @@ $result = $conn->query($sql);
 </head>
 <body>
 <header><h1>Istoric Consultatii</h1></header>
-<nav>
+<nav class="navbar"    >
     <a href="../dashboard.php">Dashboard</a>
+    <a href="../pacienti/lista.php">Pacienți</a>
+    <a href="../programari/istoric.php">Programări</a>
     <a href="adauga.php">Adauga consultatie</a>
 </nav>
 <div class="container">
